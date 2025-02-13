@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valentine's Day Proposal</title>
+  <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=Epi441lAwRJLQIQXxQatXlsAsjqVGFPw4zflSx3HZfDiRzfhvkyImpsVZWZoKODoLVmi_1zAHSlizzUW57hfF-i3SmPlmsOOfqlequwNcsOHH5dv_BW1Rs2r_f16GyiXGO2b96uvbysYqlcZNE80irTY9jsvllWVRyWqSUfZGq-AWTIfrZhE1A6k__XJOtFvhTvH3jhNGOOhZ2uwxERxrVEK7QBo2Xe-nZAi8Jd4OXNOI5AFk9msyuX4lml83SEHoCsea34FHO2KoFQWHjLOOdLnB-y7t_lFOf5ShJZ4nPMBUyLzTgGeCOPpqOKdDA3pC2YnexGmFV27W1jDxoM33PROWRccrttVepokyHXO4Bei13DTdWqm1_bKXISm8sL7jVjGGdRPd0OAvlfT6WdnfBepa0ssq3i-ilXrp12-iF9gDjkt562gQF51gyc1UQ8NrPh7_R80MwD2xA26QUjRGmf2MFxE8TeXiqrFnntlxE-tP6HFNA5Ps-zQKOp7Xg3UjWaBqJbxWHm9IOnYhrE4k4LHNqqcQc5luRQ8UdnSv49PHXJW-1Y5XhFLECBPy67bGW8S4rHjb7fM5dTIMtSWRnMeIABOoYL94bEygSidkpOA8pFFWNTphDkPawnRwXi53KyzJV39FS9Xykk5lguRQTlDn5zt4ZPh9f_Gii4jhnswe7yM4ByzioE7fF7nwByDuGO6mn0h59lrk9wQbNR2HiIB3t132BIaHLjKSMigB6mRf9P7A2yHjjj27H5A54qgWHZW0wuTxsi-5uoMEqnDk2jQAjoZ2tZUh8kJgbD0xhEHeZKfBK2wsT48Pq7564WWJKT8fhGWttfZr7FrowOrtfppBEPmFEH-yIYnQWfxTsZ60fRlNbGhNwDEShmMjN-W_EsOo6geiFii3PDWxFpwBYBRb2LdfvVV2L84Lb-UGzX2Ypz-b-5xoQL3U7ow5wg31zjTOW5p39GjYhpKExqknhTbCtZgOFWV2Q0YEGaExc7IWIPzrUqpTjDkPjLk8I1UC2nd_HgOCAFCS2Vu2VDLkMm2FD5kq1Iu0zhuf5GOSW075vooZaRkYQLKRzqygp15N6nAZ4P-0k9Uywxhr6qhVbBS4w5RkCJWTmXjm2Puek_9VtXVf4U5eYfv3JlkmtdPKU9Nwqr4boKRKRSs9Y7tuXwQJmkkYDaujEOuUW6jEH3pJXMPxhEmLDHnLpE1fjmTi7S0hcjCxJ2xrpP40_BuTp4QnQL5JHGzYvn-bD-4DXzflSI5Z6kNr8iRCDpXewya3I0Se1yibPe59Lh7d8MoMosPTsFt672eRBmkt5qq27UzaPWkpL0lBlUzADNJJbs0GRh4Q0iMSmmOwW6DEEHobQ" charset="UTF-8"></script><style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #ffcccb; /* Light pink background */
+      background-image: url('https://www.transparenttextures.com/patterns/white-texture.png'); /* Subtle texture */
+      font-family: 'Great Vibes', cursive; /* Romantic cursive font */
+      color: #8b0000; /* Dark red text color */
+      text-align: center;
+      overflow: hidden; /* Prevent scrolling when the button grows */
+    }
+
+    h1 {
+      font-size: 3rem; /* Larger font size for the heading */
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Soft text shadow */
+    }
+
+    .buttons {
+      display: flex;
+      gap: 10px; /* Smaller gap for mobile */
+      flex-direction: column; /* Stack buttons vertically on small screens */
+      align-items: center; /* Center-align buttons horizontally */
+    }
+
+    button {
+      padding: 15px 30px; /* Larger padding for a more clickable area */
+      font-size: 1.5rem; /* Larger font size for buttons */
+      border: none;
+      border-radius: 25px; /* Rounded corners for buttons */
+      cursor: pointer;
+      transition: all 0.3s ease;
+      position: relative; /* Ensure the button stays in place while growing */
+      box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2); /* Soft shadow for buttons */
+    }
+
+    #yesButton {
+      background-color: #ff4d4d; /* Bright red for "Yes" */
+      color: white;
+    }
+
+    #noButton {
+      background-color: #8b0000; /* Dark red for "No" */
+      color: white;
+    }
+
+    #noButton:hover {
+      transform: scale(1.05); /* Slight hover effect */
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    .thank-you-page {
+      font-size: 2rem; /* Larger font size for the thank-you message */
+      color: #8b0000; /* Dark red text color */
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; /* Ensure the thank-you page takes full height */
+      background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+      padding: 20px;
+      border-radius: 15px; /* Rounded corners for the thank-you page */
+    }
+
+    .thank-you-page h1 {
+      font-size: 4rem; /* Larger font size for the thank-you heading */
+      margin-bottom: 20px;
+    }
+
+    .thank-you-page p {
+      font-size: 1.8rem; /* Larger font size for the thank-you text */
+      margin: 10px 0;
+    }
+
+    /* Add a heart-shaped background */
+    body::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url('https://www.transparenttextures.com/patterns/heart.png'); /* Heart pattern */
+      opacity: 0.2; /* Subtle heart pattern */
+      pointer-events: none; /* Ensure it doesn't interfere with clicks */
+    }
+
+    /* Media query for larger screens */
+    @media (min-width: 768px) {
+      h1 {
+        font-size: 4rem; /* Larger font size for desktop */
+      }
+
+      .buttons {
+        flex-direction: row; /* Buttons side by side on larger screens */
+        gap: 20px; /* Larger gap for desktop */
+      }
+
+      button {
+        padding: 20px 40px; /* Larger padding for desktop */
+        font-size: 2rem; /* Larger font size for desktop */
+      }
+
+      .thank-you-page {
+        font-size: 2.5rem; /* Larger font size for desktop */
+      }
+
+      .thank-you-page h1 {
+        font-size: 5rem; /* Larger font size for desktop */
+      }
+
+      .thank-you-page p {
+        font-size: 2.2rem; /* Larger font size for desktop */
+      }
+    }
+  </style>
+  <!-- Add Google Fonts for a romantic cursive font -->
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="mainContent">
+    <h1>Will you be my Valentine?</h1>
+    <div class="buttons">
+      <button id="yesButton">Yes</button>
+      <button id="noButton">No</button>
+    </div>
+  </div>
+
+  <div id="thankYouPage" class="hidden">
+    <h1>Thank You!</h1>
+    <p>You've made me the happiest person alive! 💖</p>
+    <p>Let's make this Valentine's Day unforgettable!</p>
+  </div>
+
+  <script>
+    const yesButton = document.getElementById('yesButton');
+    const noButton = document.getElementById('noButton');
+    const mainContent = document.getElementById('mainContent');
+    const thankYouPage = document.getElementById('thankYouPage');
+
+    let scale = 1; // Initial scale of the "No" button
+
+    yesButton.addEventListener('click', () => {
+      mainContent.classList.add('hidden');
+      thankYouPage.classList.remove('hidden');
+    });
+
+    noButton.addEventListener('click', () => {
+      scale += 0.5; // Increase the scale factor
+      noButton.style.transform = `scale(${scale})`;
+      noButton.style.transition = 'transform 0.3s ease';
+
+      // Check if the button covers the entire page
+      if (scale >= 10) { // Adjust this value to control how big it grows
+        mainContent.classList.add('hidden');
+        thankYouPage.classList.remove('hidden');
+      }
+    });
+  </script>
+</body>
+</html>
